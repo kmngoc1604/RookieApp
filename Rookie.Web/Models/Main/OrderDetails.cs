@@ -7,13 +7,13 @@ namespace Rookie.Web.Models
 {
     public class OrderDetails
     {
-        public int order_detail_ID { get; set; }
-        public Order orderID { get; set; }
-        public User userID { get; set; }
-        public Product productID { get; set; }
-        public int quantity { get; set; }
-        public struct note { get; set; }
-        public Address addressID { get; set; }
-        public List<Product> orderdeprod { get; set; }
+        public int Order_detail_ID { get; set; }
+        public Order OrderID { get; set; }
+        public User UserID { get; set; }
+        public Product ProductID { get; set; }
+        public int Quantity { get; set; }
+        public string Note { get; set; }
+        public Address AddressID { get; set; }
+        public List<Product> Order_detail_prod { get; set; }
     }
 }
